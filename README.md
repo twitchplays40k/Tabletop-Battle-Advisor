@@ -1,4 +1,4 @@
-# Tabletop Battle Advisor Free
+# Tabletop Battle Advisor
 
 A guided tabletop companion for roster imports, deployment, phases, scoring, wounds, and reminders.
 
