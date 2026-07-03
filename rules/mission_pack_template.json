@@ -1,0 +1,27 @@
+{
+  "pack_type": "mission_pack",
+  "name": "Example Local Mission Pack",
+  "enabled": false,
+  "primary": {
+    "round_cap": 15,
+    "battle_cap": 50,
+    "vp_per_controlled_objective": "objective.value"
+  },
+  "secondaries": [
+    {
+      "name": "Example Secondary",
+      "phase": "End",
+      "scoring": "manual",
+      "vp": 5,
+      "notes": "Put your own legally-owned mission text here."
+    }
+  ],
+  "secret_missions": [
+    {
+      "name": "Example Secret Mission",
+      "scoring": "manual",
+      "notes": "User-supplied only."
+    }
+  ],
+  "event_pack_notes": "Use this file for tournament/event packet settings you are allowed to use."
+}

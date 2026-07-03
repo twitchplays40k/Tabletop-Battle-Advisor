@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<roster name="Dark Angels Combat Patrol" gameSystemName="Warhammer 40,000" battleScribeVersion="2.03">
+  <forces>
+    <force name="Dark Angels Combat Patrol" catalogueName="Dark Angels">
+      <selections>
+          <selection name="Captain in Gravis Armour" type="unit" number="1">
+            <categories>
+              <category name="Character" />
+              <category name="Infantry" />
+              <category name="Grenades" />
+              <category name="Imperium" />
+              <category name="Tacticus" />
+              <category name="Gravis" />
+              <category name="Captain" />
+            </categories>
+            <profiles>
+              <profile name="Captain in Gravis Armour" typeName="Unit">
+                <characteristics>
+                <characteristic name="M">5&quot;</characteristic>
+                <characteristic name="T">6</characteristic>
+                <characteristic name="SV">3+</characteristic>
+                <characteristic name="W">6</characteristic>
+                <characteristic name="LD">6+</characteristic>
+                <characteristic name="OC">1</characteristic>
+                </characteristics>
+              </profile>
+              <profile name="Boltstorm gauntlet" typeName="Ranged Weapon">
+                <characteristics>
+                <characteristic name="Range">18&quot;</characteristic>
+                <characteristic name="A">3</characteristic>
+                <characteristic name="BS">2+</characteristic>
+                <characteristic name="S">4</characteristic>
+                <characteristic name="AP">0</characteristic>
+                <characteristic name="D">1</characteristic>
+                </characteristics>
+              </profile>
+              <profile name="Master-crafted power weapon" typeName="Melee Weapon">
+                <characteristics>
+                <characteristic name="Range">Melee</characteristic>
+                <characteristic name="A">6</characteristic>
+                <characteristic name="WS">2+</characteristic>
+                <characteristic name="S">5</characteristic>
+                <characteristic name="AP">-2</characteristic>
+                <characteristic name="D">2</characteristic>
+                </characteristics>
+              </profile>
+              <rule name="Combat Patrol placeholder" description="Demo combat patrol unit. Import current rules for exact official rules text." />
+            </profiles>
+            <costs>
+              <cost name="pts" typeName="pts" value="0" />
+            </costs>
+          </selection>
+          <selection name="Intercessor Squad" type="unit" number="10">
+            <categories>
+              <category name="Infantry" />
+              <category name="Battleline" />
+              <category name="Grenades" />
+              <category name="Imperium" />
+              <category name="Tacticus" />
+              <category name="Intercessor Squad" />
+            </categories>
+            <profiles>
+              <profile name="Intercessor Squad" typeName="Unit">
+                <characteristics>
+                <characteristic name="M">6&quot;</characteristic>
+                <characteristic name="T">4</characteristic>
+                <characteristic name="SV">3+</characteristic>
+                <characteristic name="W">2</characteristic>
+                <characteristic name="LD">6+</characteristic>
+                <characteristic name="OC">2</characteristic>
+                </characteristics>
+              </profile>
+              <profile name="Bolt rifle" typeName="Ranged Weapon">
+                <characteristics>
+                <characteristic name="Range">24&quot;</characteristic>
+                <characteristic name="A">2</characteristic>
+                <characteristic name="BS">3+</characteristic>
+                <characteristic name="S">4</characteristic>
+                <characteristic name="AP">-1</characteristic>
+                <characteristic name="D">1</characteristic>
+                </characteristics>
+              </profile>
+              <profile name="Close combat weapon" typeName="Melee Weapon">
+                <characteristics>
+                <characteristic name="Range">Melee</characteristic>
+                <characteristic name="A">3</characteristic>
+                <characteristic name="WS">3+</characteristic>
+                <characteristic name="S">4</characteristic>
+                <characteristic name="AP">0</characteristic>
+                <characteristic name="D">1</characteristic>
+                </characteristics>
+              </profile>
+              <rule name="Objective troops" description="Demo reminder: use this unit as the durable scoring core." />
+            </profiles>
+            <costs>
+              <cost name="pts" typeName="pts" value="0" />
+            </costs>
+          </selection>
+          <selection name="Hellblaster Squad" type="unit" number="5">
+            <categories>
+              <category name="Infantry" />
+              <category name="Grenades" />
+              <category name="Imperium" />
+              <category name="Tacticus" />
+              <category name="Hellblaster Squad" />
+            </categories>
+            <profiles>
+              <profile name="Hellblaster Squad" typeName="Unit">
+                <characteristics>
+                <characteristic name="M">6&quot;</characteristic>
+                <characteristic name="T">4</characteristic>
+                <characteristic name="SV">3+</characteristic>
+                <characteristic name="W">2</characteristic>
+                <characteristic name="LD">6+</characteristic>
+                <characteristic name="OC">2</characteristic>
+                </characteristics>
+              </profile>
+              <profile name="Plasma incinerator" typeName="Ranged Weapon">
+                <characteristics>
+                <characteristic name="Range">24&quot;</characteristic>
+                <characteristic name="A">2</characteristic>
+                <characteristic name="BS">3+</characteristic>
+                <characteristic name="S">7</characteristic>
+                <characteristic name="AP">-2</characteristic>
+                <characteristic name="D">1</characteristic>
+                </characteristics>
+              </profile>
+              <profile name="Close combat weapon" typeName="Melee Weapon">
+                <characteristics>
+                <characteristic name="Range">Melee</characteristic>
+                <characteristic name="A">3</characteristic>
+                <characteristic name="WS">3+</characteristic>
+                <characteristic name="S">4</characteristic>
+                <characteristic name="AP">0</characteristic>
+                <characteristic name="D">1</characteristic>
+                </characteristics>
+              </profile>
+              <rule name="Hazardous check" description="If using overcharge/current plasma rules, resolve hazardous checks manually or from a rules pack." />
+            </profiles>
+            <costs>
+              <cost name="pts" typeName="pts" value="0" />
+            </costs>
+          </selection>
+          <selection name="Bladeguard Veteran Squad" type="unit" number="3">
+            <categories>
+              <category name="Infantry" />
+              <category name="Grenades" />
+              <category name="Imperium" />
+              <category name="Tacticus" />
+              <category name="Bladeguard Veteran Squad" />
+            </categories>
+            <profiles>
+              <profile name="Bladeguard Veteran Squad" typeName="Unit">
+                <characteristics>
+                <characteristic name="M">6&quot;</characteristic>
+                <characteristic name="T">4</characteristic>
+                <characteristic name="SV">3+</characteristic>
+                <characteristic name="W">3</characteristic>
+                <characteristic name="LD">6+</characteristic>
+                <characteristic name="OC">1</characteristic>
+                </characteristics>
+              </profile>
+              <profile name="Heavy bolt pistol" typeName="Ranged Weapon">
+                <characteristics>
+                <characteristic name="Range">18&quot;</characteristic>
+                <characteristic name="A">1</characteristic>
+                <characteristic name="BS">3+</characteristic>
+                <characteristic name="S">4</characteristic>
+                <characteristic name="AP">-1</characteristic>
+                <characteristic name="D">1</characteristic>
+                </characteristics>
+              </profile>
+              <profile name="Master-crafted power weapon" typeName="Melee Weapon">
+                <characteristics>
+                <characteristic name="Range">Melee</characteristic>
+                <characteristic name="A">4</characteristic>
+                <characteristic name="WS">3+</characteristic>
+                <characteristic name="S">5</characteristic>
+                <characteristic name="AP">-2</characteristic>
+                <characteristic name="D">2</characteristic>
+                </characteristics>
+              </profile>
+              <rule name="Melee veterans" description="Demo reminder: use as the combat/counter-charge unit." />
+            </profiles>
+            <costs>
+              <cost name="pts" typeName="pts" value="0" />
+            </costs>
+          </selection>
+      </selections>
+    </force>
+  </forces>
+</roster>

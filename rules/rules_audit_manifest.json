@@ -1,0 +1,31 @@
+{
+  "pack_type": "rules_audit",
+  "name": "Core Rules Source Audit",
+  "app_ruleset_date": "01/06/2026",
+  "constants": {
+    "ENGAGEMENT_RANGE_IN": {
+      "value": 2.0,
+      "meaning": "Distance used by the assistant for Engagement Range checks.",
+      "source_status": "Encoded constant; verify against the current Core Rules PDF whenever the official downloads page changes."
+    },
+    "MODEL_COHERENCY_IN": {
+      "value": 2.0,
+      "meaning": "Practical coherency distance used by generated model markers.",
+      "source_status": "Assistant approximation; verify exact coherency clauses for unit size/model count."
+    },
+    "HIDDEN_VISIBILITY_IN": {
+      "value": 15.0,
+      "meaning": "Distance used for Hidden/dense-terrain visibility reminders.",
+      "source_status": "Assistant approximation based on imported terrain tags and unit actions."
+    },
+    "COVER_HIT_MODIFIER": {
+      "value": "+1 to required hit roll in assistant maths",
+      "meaning": "The app shows cover as a hit-roll/BS modifier in its quick calculation.",
+      "source_status": "High-risk assumption; the UI now labels it as assistant-default unless a user-supplied rules pack overrides it."
+    }
+  },
+  "notes": [
+    "This file documents which rules assumptions need checking against the latest official PDFs.",
+    "The app scans the official downloads page for update-date drift, but it does not download or redistribute official rules text."
+  ]
+}

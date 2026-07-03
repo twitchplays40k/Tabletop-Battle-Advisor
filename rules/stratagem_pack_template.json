@@ -1,0 +1,20 @@
+{
+  "pack_type": "stratagem_pack",
+  "name": "Example Local Stratagem Pack",
+  "enabled": false,
+  "stratagems": [
+    {
+      "name": "Example Stratagem Reminder",
+      "faction_keywords_any": [
+        "Adeptus Astartes"
+      ],
+      "unit_keywords_any": [
+        "Infantry"
+      ],
+      "phase": "Shooting",
+      "timing": "When this unit is selected to shoot or be shot at",
+      "cost": "1CP",
+      "summary": "Short reminder written by the user; do not copy restricted/codex text unless you have permission."
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<roster name="World Eaters Combat Patrol" gameSystemName="Warhammer 40,000" battleScribeVersion="2.03">
+  <forces>
+    <force name="World Eaters Combat Patrol" catalogueName="World Eaters">
+      <selections>
+          <selection name="Daemon Prince" type="unit" number="1">
+            <categories>
+              <category name="Character" />
+              <category name="Monster" />
+              <category name="Daemon" />
+              <category name="Chaos" />
+              <category name="Khorne" />
+              <category name="World Eaters" />
+              <category name="Daemon Prince" />
+            </categories>
+            <profiles>
+              <profile name="Daemon Prince" typeName="Unit">
+                <characteristics>
+                <characteristic name="M">8&quot;</characteristic>
+                <characteristic name="T">10</characteristic>
+                <characteristic name="SV">2+</characteristic>
+                <characteristic name="W">10</characteristic>
+                <characteristic name="LD">6+</characteristic>
+                <characteristic name="OC">3</characteristic>
+                </characteristics>
+              </profile>
+              <profile name="Hellforged weapons" typeName="Melee Weapon">
+                <characteristics>
+                <characteristic name="Range">Melee</characteristic>
+                <characteristic name="A">7</characteristic>
+                <characteristic name="WS">2+</characteristic>
+                <characteristic name="S">8</characteristic>
+                <characteristic name="AP">-2</characteristic>
+                <characteristic name="D">3</characteristic>
+                </characteristics>
+              </profile>
+              <profile name="Infernal cannon" typeName="Ranged Weapon">
+                <characteristics>
+                <characteristic name="Range">18&quot;</characteristic>
+                <characteristic name="A">3</characteristic>
+                <characteristic name="BS">2+</characteristic>
+                <characteristic name="S">5</characteristic>
+                <characteristic name="AP">-1</characteristic>
+                <characteristic name="D">2</characteristic>
+                </characteristics>
+              </profile>
+              <rule name="Combat Patrol placeholder" description="Demo combat patrol unit. Import current rules for exact official rules text." />
+            </profiles>
+            <costs>
+              <cost name="pts" typeName="pts" value="0" />
+            </costs>
+          </selection>
+          <selection name="Master of Executions" type="unit" number="1">
+            <categories>
+              <category name="Character" />
+              <category name="Infantry" />
+              <category name="Grenades" />
+              <category name="Chaos" />
+              <category name="Khorne" />
+              <category name="World Eaters" />
+              <category name="Leader" />
+            </categories>
+            <profiles>
+              <profile name="Master of Executions" typeName="Unit">
+                <characteristics>
+                <characteristic name="M">6&quot;</characteristic>
+                <characteristic name="T">4</characteristic>
+                <characteristic name="SV">3+</characteristic>
+                <characteristic name="W">4</characteristic>
+                <characteristic name="LD">6+</characteristic>
+                <characteristic name="OC">1</characteristic>
+                </characteristics>
+              </profile>
+              <profile name="Bolt pistol" typeName="Ranged Weapon">
+                <characteristics>
+                <characteristic name="Range">12&quot;</characteristic>
+                <characteristic name="A">1</characteristic>
+                <characteristic name="BS">2+</characteristic>
+                <characteristic name="S">4</characteristic>
+                <characteristic name="AP">0</characteristic>
+                <characteristic name="D">1</characteristic>
+                </characteristics>
+              </profile>
+              <profile name="Axe of dismemberment" typeName="Melee Weapon">
+                <characteristics>
+                <characteristic name="Range">Melee</characteristic>
+                <characteristic name="A">5</characteristic>
+                <characteristic name="WS">2+</characteristic>
+                <characteristic name="S">7</characteristic>
+                <characteristic name="AP">-2</characteristic>
+                <characteristic name="D">2</characteristic>
+                </characteristics>
+              </profile>
+              <profile name="Leader" typeName="Ability">
+                <characteristics>
+                <characteristic name="Description">This model can be attached to the following units:
+■ Khorne Berzerkers</characteristic>
+                </characteristics>
+              </profile>
+              <rule name="Executioner" description="Demo reminder: use current rules/rules pack for Precision, re-rolls or character-hunting effects." />
+            </profiles>
+            <costs>
+              <cost name="pts" typeName="pts" value="0" />
+            </costs>
+          </selection>
+          <selection name="Khorne Berzerkers" type="unit" number="10">
+            <categories>
+              <category name="Infantry" />
+              <category name="Battleline" />
+              <category name="Grenades" />
+              <category name="Chaos" />
+              <category name="Khorne" />
+              <category name="World Eaters" />
+              <category name="Berzerkers" />
+            </categories>
+            <profiles>
+              <profile name="Khorne Berzerkers" typeName="Unit">
+                <characteristics>
+                <characteristic name="M">6&quot;</characteristic>
+                <characteristic name="T">4</characteristic>
+                <characteristic name="SV">3+</characteristic>
+                <characteristic name="W">2</characteristic>
+                <characteristic name="LD">6+</characteristic>
+                <characteristic name="OC">2</characteristic>
+                </characteristics>
+              </profile>
+              <profile name="Bolt pistol" typeName="Ranged Weapon">
+                <characteristics>
+                <characteristic name="Range">12&quot;</characteristic>
+                <characteristic name="A">1</characteristic>
+                <characteristic name="BS">3+</characteristic>
+                <characteristic name="S">4</characteristic>
+                <characteristic name="AP">0</characteristic>
+                <characteristic name="D">1</characteristic>
+                </characteristics>
+              </profile>
+              <profile name="Berzerker chainblade" typeName="Melee Weapon">
+                <characteristics>
+                <characteristic name="Range">Melee</characteristic>
+                <characteristic name="A">4</characteristic>
+                <characteristic name="WS">3+</characteristic>
+                <characteristic name="S">5</characteristic>
+                <characteristic name="AP">-1</characteristic>
+                <characteristic name="D">1</characteristic>
+                </characteristics>
+              </profile>
+              <rule name="Blood Surge reminder" description="Demo reminder: check current rules/rules pack for Blood Surge timing and distance." />
+            </profiles>
+            <costs>
+              <cost name="pts" typeName="pts" value="0" />
+            </costs>
+          </selection>
+          <selection name="Jakhals" type="unit" number="10">
+            <categories>
+              <category name="Infantry" />
+              <category name="Chaos" />
+              <category name="Khorne" />
+              <category name="World Eaters" />
+              <category name="Jakhals" />
+            </categories>
+            <profiles>
+              <profile name="Jakhals" typeName="Unit">
+                <characteristics>
+                <characteristic name="M">6&quot;</characteristic>
+                <characteristic name="T">3</characteristic>
+                <characteristic name="SV">6+</characteristic>
+                <characteristic name="W">1</characteristic>
+                <characteristic name="LD">7+</characteristic>
+                <characteristic name="OC">1</characteristic>
+                </characteristics>
+              </profile>
+              <profile name="Autopistol" typeName="Ranged Weapon">
+                <characteristics>
+                <characteristic name="Range">12&quot;</characteristic>
+                <characteristic name="A">1</characteristic>
+                <characteristic name="BS">4+</characteristic>
+                <characteristic name="S">3</characteristic>
+                <characteristic name="AP">0</characteristic>
+                <characteristic name="D">1</characteristic>
+                </characteristics>
+              </profile>
+              <profile name="Jakhal chainblades" typeName="Melee Weapon">
+                <characteristics>
+                <characteristic name="Range">Melee</characteristic>
+                <characteristic name="A">2</characteristic>
+                <characteristic name="WS">4+</characteristic>
+                <characteristic name="S">3</characteristic>
+                <characteristic name="AP">0</characteristic>
+                <characteristic name="D">1</characteristic>
+                </characteristics>
+              </profile>
+              <rule name="Cultist screen" description="Demo reminder: use as board control and screening infantry." />
+            </profiles>
+            <costs>
+              <cost name="pts" typeName="pts" value="0" />
+            </costs>
+          </selection>
+      </selections>
+    </force>
+  </forces>
+</roster>

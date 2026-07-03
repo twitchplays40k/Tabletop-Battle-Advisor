@@ -1,0 +1,552 @@
+{
+  "notes": [
+    "Starter glossary catalog for Tabletop Battle Advisor.",
+    "This file contains faction/unit names and non-official placeholder reminders only.",
+    "It intentionally does not bundle official Games Workshop datasheet rules, points, stratagem text, or copyrighted rule text.",
+    "Import roster files and/or user rules packs to replace placeholder data with customer-owned/current data."
+  ],
+  "factions": [
+    {
+      "name": "Space Marines",
+      "units": [
+        "Captain",
+        "Lieutenant",
+        "Librarian",
+        "Chaplain",
+        "Techmarine",
+        "Apothecary",
+        "Intercessor Squad",
+        "Assault Intercessor Squad",
+        "Heavy Intercessor Squad",
+        "Infiltrator Squad",
+        "Incursors",
+        "Scouts",
+        "Hellblaster Squad",
+        "Desolation Squad",
+        "Eradicator Squad",
+        "Eliminator Squad",
+        "Aggressor Squad",
+        "Inceptor Squad",
+        "Bladeguard Veteran Squad",
+        "Sternguard Veteran Squad",
+        "Vanguard Veteran Squad with Jump Packs",
+        "Terminator Squad",
+        "Redemptor Dreadnought",
+        "Ballistus Dreadnought",
+        "Brutalis Dreadnought",
+        "Gladiator Lancer",
+        "Repulsor",
+        "Land Raider",
+        "Rhino",
+        "Impulsor"
+      ]
+    },
+    {
+      "name": "Dark Angels",
+      "units": [
+        "Azrael",
+        "Lion El'Jonson",
+        "Belial",
+        "Sammael",
+        "Deathwing Knights",
+        "Deathwing Terminator Squad",
+        "Inner Circle Companions",
+        "Ravenwing Black Knights",
+        "Ravenwing Command Squad",
+        "Ravenwing Dark Talon"
+      ]
+    },
+    {
+      "name": "Blood Angels",
+      "units": [
+        "Commander Dante",
+        "Mephiston",
+        "Astorath",
+        "The Sanguinor",
+        "Sanguinary Guard",
+        "Death Company Marines",
+        "Death Company Marines with Jump Packs",
+        "Baal Predator",
+        "Furioso Dreadnought",
+        "Lemartes"
+      ]
+    },
+    {
+      "name": "Space Wolves",
+      "units": [
+        "Logan Grimnar",
+        "Ragnar Blackmane",
+        "Bjorn the Fell-Handed",
+        "Wolf Guard Terminators",
+        "Blood Claws",
+        "Grey Hunters",
+        "Thunderwolf Cavalry",
+        "Wulfen",
+        "Fenrisian Wolves",
+        "Long Fangs"
+      ]
+    },
+    {
+      "name": "Black Templars",
+      "units": [
+        "High Marshal Helbrecht",
+        "The Emperor's Champion",
+        "Marshal",
+        "Primaris Crusader Squad",
+        "Crusader Squad",
+        "Sword Brethren",
+        "Castellan",
+        "Chaplain Grimaldus",
+        "Black Templars Impulsor"
+      ]
+    },
+    {
+      "name": "Grey Knights",
+      "units": [
+        "Kaldor Draigo",
+        "Grand Master",
+        "Brother-Captain",
+        "Brotherhood Librarian",
+        "Strike Squad",
+        "Terminator Squad",
+        "Paladin Squad",
+        "Purifier Squad",
+        "Interceptor Squad",
+        "Purgation Squad",
+        "Nemesis Dreadknight"
+      ]
+    },
+    {
+      "name": "Adeptus Custodes",
+      "units": [
+        "Trajann Valoris",
+        "Shield-Captain",
+        "Blade Champion",
+        "Custodian Guard",
+        "Custodian Wardens",
+        "Allarus Custodians",
+        "Vertus Praetors",
+        "Venerable Contemptor Dreadnought",
+        "Prosecutors",
+        "Witchseekers"
+      ]
+    },
+    {
+      "name": "Astra Militarum",
+      "units": [
+        "Lord Solar Leontus",
+        "Ursula Creed",
+        "Cadian Command Squad",
+        "Cadian Shock Troops",
+        "Infantry Squad",
+        "Death Korps of Krieg",
+        "Kasrkin",
+        "Tempestus Scions",
+        "Bullgryn Squad",
+        "Sentinel",
+        "Leman Russ Battle Tank",
+        "Rogal Dorn Battle Tank",
+        "Basilisk",
+        "Manticore",
+        "Chimera",
+        "Baneblade"
+      ]
+    },
+    {
+      "name": "Adeptus Mechanicus",
+      "units": [
+        "Belisarius Cawl",
+        "Tech-Priest Dominus",
+        "Tech-Priest Manipulus",
+        "Skitarii Rangers",
+        "Skitarii Vanguard",
+        "Kataphron Breachers",
+        "Kataphron Destroyers",
+        "Sicarian Infiltrators",
+        "Sicarian Ruststalkers",
+        "Serberys Raiders",
+        "Ironstrider Ballistarii",
+        "Onager Dunecrawler",
+        "Kastelan Robots",
+        "Skorpius Dunerider"
+      ]
+    },
+    {
+      "name": "Adepta Sororitas",
+      "units": [
+        "Morvenn Vahl",
+        "Saint Celestine",
+        "Canoness",
+        "Palatine",
+        "Battle Sisters Squad",
+        "Dominion Squad",
+        "Retributor Squad",
+        "Seraphim Squad",
+        "Zephyrim Squad",
+        "Sisters Repentia",
+        "Arco-flagellants",
+        "Paragon Warsuits",
+        "Penitent Engines",
+        "Exorcist",
+        "Castigator",
+        "Sororitas Rhino",
+        "Immolator"
+      ]
+    },
+    {
+      "name": "Imperial Knights",
+      "units": [
+        "Knight Errant",
+        "Knight Paladin",
+        "Knight Warden",
+        "Knight Crusader",
+        "Knight Gallant",
+        "Knight Preceptor",
+        "Knight Castellan",
+        "Knight Valiant",
+        "Armiger Warglaive",
+        "Armiger Helverin"
+      ]
+    },
+    {
+      "name": "Imperial Agents",
+      "units": [
+        "Inquisitor",
+        "Callidus Assassin",
+        "Culexus Assassin",
+        "Eversor Assassin",
+        "Vindicare Assassin",
+        "Rogue Trader Entourage",
+        "Navy Breachers",
+        "Voidsmen-at-Arms",
+        "Deathwatch Veterans",
+        "Exaction Squad"
+      ]
+    },
+    {
+      "name": "Chaos Space Marines",
+      "units": [
+        "Abaddon the Despoiler",
+        "Chaos Lord",
+        "Chaos Lord in Terminator Armour",
+        "Dark Apostle",
+        "Master of Possession",
+        "Legionaries",
+        "Cultist Mob",
+        "Chosen",
+        "Chaos Terminator Squad",
+        "Possessed",
+        "Warp Talons",
+        "Raptors",
+        "Havocs",
+        "Obliterators",
+        "Venomcrawler",
+        "Forgefiend",
+        "Maulerfiend",
+        "Chaos Rhino",
+        "Chaos Land Raider"
+      ]
+    },
+    {
+      "name": "World Eaters",
+      "units": [
+        "Angron",
+        "Khârn the Betrayer",
+        "World Eaters Lord on Juggernaut",
+        "Master of Executions",
+        "Khorne Berzerkers",
+        "Jakhals",
+        "Eightbound",
+        "Exalted Eightbound",
+        "World Eaters Terminator Squad",
+        "Lord Invocatus",
+        "World Eaters Rhino"
+      ]
+    },
+    {
+      "name": "Death Guard",
+      "units": [
+        "Mortarion",
+        "Typhus",
+        "Lord of Contagion",
+        "Malignant Plaguecaster",
+        "Plague Marines",
+        "Poxwalkers",
+        "Blightlord Terminators",
+        "Deathshroud Terminators",
+        "Foetid Bloat-drone",
+        "Myphitic Blight-haulers",
+        "Plagueburst Crawler",
+        "Death Guard Rhino"
+      ]
+    },
+    {
+      "name": "Thousand Sons",
+      "units": [
+        "Magnus the Red",
+        "Ahriman",
+        "Exalted Sorcerer",
+        "Infernal Master",
+        "Rubric Marines",
+        "Tzaangors",
+        "Scarab Occult Terminators",
+        "Tzaangor Enlightened",
+        "Mutalith Vortex Beast",
+        "Thousand Sons Rhino"
+      ]
+    },
+    {
+      "name": "Emperor's Children",
+      "units": [
+        "Lucius the Eternal",
+        "Emperor's Children Lord",
+        "Noise Marines",
+        "Chosen",
+        "Cultist Mob",
+        "Chaos Terminator Squad",
+        "Raptors",
+        "Warp Talons",
+        "Forgefiend",
+        "Chaos Rhino"
+      ]
+    },
+    {
+      "name": "Chaos Daemons",
+      "units": [
+        "Bloodthirster",
+        "Lord of Change",
+        "Great Unclean One",
+        "Keeper of Secrets",
+        "Be'lakor",
+        "Daemon Prince",
+        "Bloodletters",
+        "Daemonettes",
+        "Plaguebearers",
+        "Pink Horrors",
+        "Nurglings",
+        "Flamers",
+        "Bloodcrushers",
+        "Screamers",
+        "Soul Grinder"
+      ]
+    },
+    {
+      "name": "Chaos Knights",
+      "units": [
+        "Knight Abominant",
+        "Knight Desecrator",
+        "Knight Rampager",
+        "Knight Despoiler",
+        "Knight Tyrant",
+        "War Dog Brigand",
+        "War Dog Karnivore",
+        "War Dog Stalker",
+        "War Dog Executioner",
+        "War Dog Huntsman"
+      ]
+    },
+    {
+      "name": "Aeldari",
+      "units": [
+        "Avatar of Khaine",
+        "Farseer",
+        "Autarch",
+        "Spiritseer",
+        "Guardian Defenders",
+        "Storm Guardians",
+        "Rangers",
+        "Dire Avengers",
+        "Howling Banshees",
+        "Striking Scorpions",
+        "Fire Dragons",
+        "Warp Spiders",
+        "Swooping Hawks",
+        "Wraithguard",
+        "Wraithblades",
+        "Wraithlord",
+        "War Walkers",
+        "Windriders",
+        "Wave Serpent",
+        "Fire Prism",
+        "Falcon"
+      ]
+    },
+    {
+      "name": "Drukhari",
+      "units": [
+        "Archon",
+        "Succubus",
+        "Haemonculus",
+        "Kabalite Warriors",
+        "Wyches",
+        "Wracks",
+        "Incubi",
+        "Mandrakes",
+        "Scourges",
+        "Reavers",
+        "Hellions",
+        "Talos",
+        "Cronos",
+        "Raider",
+        "Venom",
+        "Ravager"
+      ]
+    },
+    {
+      "name": "Leagues of Votann",
+      "units": [
+        "Ûthar the Destined",
+        "Kâhl",
+        "Einhyr Champion",
+        "Grimnyr",
+        "Hearthkyn Warriors",
+        "Hearthguard",
+        "Cthonian Beserks",
+        "Hernkyn Pioneers",
+        "Sagitaur",
+        "Hekaton Land Fortress",
+        "Brôkhyr Thunderkyn",
+        "Brôkhyr Iron-master"
+      ]
+    },
+    {
+      "name": "Orks",
+      "units": [
+        "Ghazghkull Thraka",
+        "Warboss",
+        "Big Mek",
+        "Painboy",
+        "Boyz",
+        "Beast Snagga Boyz",
+        "Gretchin",
+        "Nobz",
+        "Meganobz",
+        "Kommandos",
+        "Stormboyz",
+        "Warbikers",
+        "Deffkoptas",
+        "Killa Kans",
+        "Deff Dread",
+        "Trukk",
+        "Battlewagon",
+        "Stompa"
+      ]
+    },
+    {
+      "name": "T'au Empire",
+      "units": [
+        "Commander Farsight",
+        "Commander Shadowsun",
+        "Cadre Fireblade",
+        "Ethereal",
+        "Strike Team",
+        "Breacher Team",
+        "Pathfinder Team",
+        "Crisis Battlesuits",
+        "Stealth Battlesuits",
+        "Broadside Battlesuits",
+        "Riptide Battlesuit",
+        "Ghostkeel Battlesuit",
+        "Hammerhead Gunship",
+        "Devilfish",
+        "Piranha",
+        "Kroot Carnivores",
+        "Krootox Rampagers"
+      ]
+    },
+    {
+      "name": "Necrons",
+      "units": [
+        "Silent King",
+        "Overlord",
+        "Royal Warden",
+        "Chronomancer",
+        "Technomancer",
+        "Necron Warriors",
+        "Immortals",
+        "Deathmarks",
+        "Lychguard",
+        "Skorpekh Destroyers",
+        "Lokhust Destroyers",
+        "Canoptek Wraiths",
+        "Canoptek Scarab Swarms",
+        "Doomsday Ark",
+        "Ghost Ark",
+        "Monolith",
+        "C'tan Shard of the Nightbringer"
+      ]
+    },
+    {
+      "name": "Tyranids",
+      "units": [
+        "Hive Tyrant",
+        "Swarmlord",
+        "Tervigon",
+        "Neurotyrant",
+        "Termagants",
+        "Hormagaunts",
+        "Gargoyles",
+        "Tyranid Warriors",
+        "Genestealers",
+        "Lictor",
+        "Von Ryan's Leapers",
+        "Zoanthropes",
+        "Carnifexes",
+        "Exocrine",
+        "Haruspex",
+        "Maleceptor",
+        "Norn Emissary",
+        "Trygon",
+        "Tyrannofex"
+      ]
+    },
+    {
+      "name": "Genestealer Cults",
+      "units": [
+        "Patriarch",
+        "Magus",
+        "Primus",
+        "Acolyte Iconward",
+        "Neophyte Hybrids",
+        "Acolyte Hybrids",
+        "Hybrid Metamorphs",
+        "Aberrants",
+        "Purestrain Genestealers",
+        "Atalan Jackals",
+        "Achilles Ridgerunners",
+        "Goliath Truck",
+        "Goliath Rockgrinder"
+      ]
+    }
+  ],
+  "stratagems": [
+    {
+      "name": "Command Re-roll",
+      "cost": 1,
+      "faction": "Core Rules",
+      "timing": "When eligible",
+      "summary": "Core reminder only: confirm the current legal timing and roll type, then re-roll if permitted."
+    },
+    {
+      "name": "Reactive Shooting / Overwatch",
+      "cost": 1,
+      "faction": "Core Rules",
+      "timing": "Opponent movement/charge timing if allowed",
+      "summary": "Core reminder only: check target, timing, visibility, and any restrictions before resolving."
+    },
+    {
+      "name": "Defensive Stratagem",
+      "cost": 1,
+      "faction": "Core Rules",
+      "timing": "When targeted / before saving if allowed",
+      "summary": "Generic reminder for defensive effects. Exact current rule should come from a user rules pack."
+    },
+    {
+      "name": "Offensive Stratagem",
+      "cost": 1,
+      "faction": "Core Rules",
+      "timing": "Before/after attacking if allowed",
+      "summary": "Generic reminder for offensive buffs. Exact current rule should come from a user rules pack."
+    }
+  ]
+}

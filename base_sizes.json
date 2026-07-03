@@ -1,0 +1,1444 @@
+{
+  "notes": [
+    "Optional customer-editable base/footprint lookup.",
+    "Roster exports often do not include official base sizes. The app uses roster text first, then this file, then a heuristic.",
+    "For vehicles without round bases, use footprint_mm as a practical circular footprint for spacing/clicking. Values are not official unless you verify them against the model/instructions you own.",
+    "v33 also supports oval bases with base_length_mm/base_width_mm or oval_mm: [75, 42]."
+  ],
+  "rules": [
+    {
+      "match": [
+        "example oval base"
+      ],
+      "base_length_mm": 75,
+      "base_width_mm": 42,
+      "source": "example schema only; edit/remove for your own collection"
+    },
+    {
+      "match": [
+        "angron",
+        "bloodthirster",
+        "avatar"
+      ],
+      "base_mm": 100,
+      "source": "default large monster heuristic"
+    },
+    {
+      "match": [
+        "daemon prince"
+      ],
+      "base_mm": 60,
+      "source": "default monster heuristic"
+    },
+    {
+      "match": [
+        "redemptor",
+        "brutalis",
+        "ballistus",
+        "dreadnought",
+        "helbrute"
+      ],
+      "base_mm": 90,
+      "source": "default walker heuristic"
+    },
+    {
+      "match": [
+        "terminator",
+        "deathwing",
+        "obliterator"
+      ],
+      "base_mm": 40,
+      "source": "default heavy infantry heuristic"
+    },
+    {
+      "match": [
+        "jump pack",
+        "assault intercessors with jump"
+      ],
+      "base_mm": 32,
+      "source": "default jump infantry heuristic"
+    },
+    {
+      "match": [
+        "captain",
+        "chaplain",
+        "master of executions",
+        "lord"
+      ],
+      "base_mm": 40,
+      "source": "default character heuristic"
+    },
+    {
+      "match": [
+        "rhino",
+        "land raider",
+        "predator",
+        "gladiator",
+        "repulsor"
+      ],
+      "footprint_mm": 120,
+      "source": "vehicle footprint equivalent; many vehicles have hulls rather than round bases"
+    },
+    {
+      "match": [
+        "bike",
+        "outrider",
+        "cavalry",
+        "mounted"
+      ],
+      "base_mm": 75,
+      "source": "default bike/cavalry footprint heuristic; oval fallback editable",
+      "base_length_mm": 75,
+      "base_width_mm": 42
+    },
+    {
+      "match": [
+        "intercessor",
+        "tactical marine",
+        "assault marine",
+        "devastator",
+        "sternguard",
+        "vanguard"
+      ],
+      "base_mm": 32,
+      "source": "standard power armor infantry"
+    },
+    {
+      "match": [
+        "scout",
+        "raider",
+        "warrior",
+        "guardian"
+      ],
+      "base_mm": 28.5,
+      "source": "standard light infantry"
+    },
+    {
+      "match": [
+        "bladeguard",
+        "aggressor",
+        "eradicator",
+        "hellblaster",
+        "plasma incinerator"
+      ],
+      "base_mm": 40,
+      "source": "elite heavy infantry"
+    },
+    {
+      "match": [
+        "tactical squad",
+        "assault squad",
+        "devastator squad",
+        "combat squad"
+      ],
+      "base_mm": 32,
+      "source": "marine squad infantry"
+    },
+    {
+      "match": [
+        "scout squad"
+      ],
+      "base_mm": 28.5,
+      "source": "scout squad"
+    },
+    {
+      "match": [
+        "terminator squad",
+        "command squad"
+      ],
+      "base_mm": 40,
+      "source": "elite squad"
+    },
+    {
+      "match": [
+        "attack bike",
+        "land speeder"
+      ],
+      "footprint_mm": 100,
+      "source": "fast attack vehicle; oval fallback editable",
+      "base_length_mm": 75,
+      "base_width_mm": 42
+    },
+    {
+      "match": [
+        "whirlwind",
+        "vindicator",
+        "devastation"
+      ],
+      "footprint_mm": 120,
+      "source": "support vehicle"
+    },
+    {
+      "match": [
+        "stalker",
+        "hunter"
+      ],
+      "footprint_mm": 100,
+      "source": "support vehicle"
+    },
+    {
+      "match": [
+        "centurion",
+        "iron clad"
+      ],
+      "base_mm": 60,
+      "source": "heavy suit"
+    },
+    {
+      "match": [
+        "venerable dreadnought",
+        "contemptor",
+        "leviathan"
+      ],
+      "base_mm": 90,
+      "source": "walker"
+    },
+    {
+      "match": [
+        "primaris captain",
+        "primaris lieutenant",
+        "primaris ancient"
+      ],
+      "base_mm": 40,
+      "source": "primaris character"
+    },
+    {
+      "match": [
+        "librarian",
+        "apothecary",
+        "chapter ancient"
+      ],
+      "base_mm": 40,
+      "source": "support character"
+    },
+    {
+      "match": [
+        "sergeant",
+        "veteran sergeant"
+      ],
+      "base_mm": 32,
+      "source": "squad leader"
+    },
+    {
+      "match": [
+        "thunderfire",
+        "firestorm"
+      ],
+      "footprint_mm": 90,
+      "source": "support weapon"
+    },
+    {
+      "match": [
+        "inceptor",
+        "suppressor",
+        "eliminator"
+      ],
+      "base_mm": 32,
+      "source": "primaris infantry"
+    },
+    {
+      "match": [
+        "chaos space marine",
+        "csm",
+        "traitor"
+      ],
+      "base_mm": 32,
+      "source": "chaos power armor"
+    },
+    {
+      "match": [
+        "chaos terminator",
+        "chosen"
+      ],
+      "base_mm": 40,
+      "source": "chaos heavy infantry"
+    },
+    {
+      "match": [
+        "chaos biker",
+        "chaos bike"
+      ],
+      "base_mm": 75,
+      "source": "chaos bike; oval fallback editable",
+      "base_length_mm": 75,
+      "base_width_mm": 42
+    },
+    {
+      "match": [
+        "cultist",
+        "poxwalker",
+        "plague marine",
+        "rubric marine"
+      ],
+      "base_mm": 28.5,
+      "source": "chaos light infantry"
+    },
+    {
+      "match": [
+        "possessed",
+        "mutilator"
+      ],
+      "base_mm": 40,
+      "source": "chaos elite"
+    },
+    {
+      "match": [
+        "havoc",
+        "chaos knight"
+      ],
+      "base_mm": 75,
+      "source": "chaos large unit"
+    },
+    {
+      "match": [
+        "warpsmith",
+        "dark apostle",
+        "chaos lord"
+      ],
+      "base_mm": 40,
+      "source": "chaos character"
+    },
+    {
+      "match": [
+        "helbrute",
+        "obliterator",
+        "mutilator"
+      ],
+      "base_mm": 90,
+      "source": "chaos heavy"
+    },
+    {
+      "match": [
+        "chaos rhino",
+        "chaos land raider"
+      ],
+      "footprint_mm": 120,
+      "source": "chaos vehicle"
+    },
+    {
+      "match": [
+        "guardsman",
+        "cadian",
+        "catachan",
+        "kriegsmen"
+      ],
+      "base_mm": 28.5,
+      "source": "imperial guard infantry"
+    },
+    {
+      "match": [
+        "veteran guardsman",
+        "command squad"
+      ],
+      "base_mm": 28.5,
+      "source": "guard veteran"
+    },
+    {
+      "match": [
+        "ogryn",
+        "bullgryn",
+        "nork deddog"
+      ],
+      "base_mm": 60,
+      "source": "heavy support infantry"
+    },
+    {
+      "match": [
+        "ratling",
+        "tempestus scion"
+      ],
+      "base_mm": 28.5,
+      "source": "specialized infantry"
+    },
+    {
+      "match": [
+        "psyker",
+        "special weapon",
+        "flamer",
+        "plasma gun",
+        "melta gun"
+      ],
+      "base_mm": 28.5,
+      "source": "guard specialized"
+    },
+    {
+      "match": [
+        "chimera",
+        "taurox",
+        "valkyrie",
+        "hellhound"
+      ],
+      "footprint_mm": 120,
+      "source": "guard transport"
+    },
+    {
+      "match": [
+        "leman russ",
+        "basilisk",
+        "manticore",
+        "hydra",
+        "wyvern"
+      ],
+      "footprint_mm": 130,
+      "source": "guard tank"
+    },
+    {
+      "match": [
+        "sentinel",
+        "armored sentinels"
+      ],
+      "footprint_mm": 80,
+      "source": "light tank"
+    },
+    {
+      "match": [
+        "commissar",
+        "officer",
+        "company commander",
+        "cadian officer"
+      ],
+      "base_mm": 28.5,
+      "source": "guard character"
+    },
+    {
+      "match": [
+        "creed",
+        "yarrick",
+        "astra militarum leader"
+      ],
+      "base_mm": 40,
+      "source": "guard named character"
+    },
+    {
+      "match": [
+        "necron warrior",
+        "immortal"
+      ],
+      "base_mm": 28.5,
+      "source": "necron infantry"
+    },
+    {
+      "match": [
+        "overlord",
+        "cryptek",
+        "necron lord"
+      ],
+      "base_mm": 40,
+      "source": "necron character"
+    },
+    {
+      "match": [
+        "destroyer",
+        "heavy destroyer"
+      ],
+      "base_mm": 40,
+      "source": "necron destroyer"
+    },
+    {
+      "match": [
+        "monolith",
+        "night scythe",
+        "doom scythe"
+      ],
+      "footprint_mm": 130,
+      "source": "necron aircraft"
+    },
+    {
+      "match": [
+        "ghost ark"
+      ],
+      "footprint_mm": 120,
+      "source": "necron transport"
+    },
+    {
+      "match": [
+        "tomb spider",
+        "scarab"
+      ],
+      "base_mm": 28.5,
+      "source": "necron swarm"
+    },
+    {
+      "match": [
+        "wraith",
+        "flayed one"
+      ],
+      "base_mm": 50,
+      "source": "necron elite"
+    },
+    {
+      "match": [
+        "canoptek"
+      ],
+      "base_mm": 60,
+      "source": "necron construct"
+    },
+    {
+      "match": [
+        "triarch stalker"
+      ],
+      "footprint_mm": 100,
+      "source": "necron walker"
+    },
+    {
+      "match": [
+        "ork boy",
+        "ork",
+        "boyz"
+      ],
+      "base_mm": 32,
+      "source": "ork infantry"
+    },
+    {
+      "match": [
+        "nob",
+        "warboss",
+        "ork nob"
+      ],
+      "base_mm": 40,
+      "source": "ork leader"
+    },
+    {
+      "match": [
+        "gretchin",
+        "grot",
+        "runt"
+      ],
+      "base_mm": 20,
+      "source": "ork small"
+    },
+    {
+      "match": [
+        "ork biker",
+        "nob bike",
+        "warbike"
+      ],
+      "base_mm": 75,
+      "source": "ork bike; oval fallback editable",
+      "base_length_mm": 75,
+      "base_width_mm": 42
+    },
+    {
+      "match": [
+        "deff kopta",
+        "warbuggy"
+      ],
+      "footprint_mm": 100,
+      "source": "ork fast"
+    },
+    {
+      "match": [
+        "dreadnought",
+        "ork dread"
+      ],
+      "base_mm": 90,
+      "source": "ork walker"
+    },
+    {
+      "match": [
+        "mega armor",
+        "mega armored"
+      ],
+      "base_mm": 50,
+      "source": "ork heavy"
+    },
+    {
+      "match": [
+        "trukk",
+        "battlewagon"
+      ],
+      "footprint_mm": 130,
+      "source": "ork transport"
+    },
+    {
+      "match": [
+        "bonebreakas",
+        "flyboss",
+        "killa kan"
+      ],
+      "footprint_mm": 110,
+      "source": "ork vehicle"
+    },
+    {
+      "match": [
+        "loota",
+        "burna",
+        "shoota",
+        "slugga"
+      ],
+      "base_mm": 32,
+      "source": "ork specialist"
+    },
+    {
+      "match": [
+        "mek",
+        "painboy"
+      ],
+      "base_mm": 40,
+      "source": "ork support"
+    },
+    {
+      "match": [
+        "eldar warrior",
+        "guardian"
+      ],
+      "base_mm": 28.5,
+      "source": "eldar infantry"
+    },
+    {
+      "match": [
+        "dire avenger",
+        "wailing doom"
+      ],
+      "base_mm": 28.5,
+      "source": "eldar aspect warrior"
+    },
+    {
+      "match": [
+        "striking scorpion",
+        "fire dragon",
+        "howling banshee"
+      ],
+      "base_mm": 28.5,
+      "source": "eldar aspect"
+    },
+    {
+      "match": [
+        "ranger",
+        "warp spider"
+      ],
+      "base_mm": 28.5,
+      "source": "eldar scout"
+    },
+    {
+      "match": [
+        "farseer",
+        "warlock",
+        "autarch"
+      ],
+      "base_mm": 32,
+      "source": "eldar character"
+    },
+    {
+      "match": [
+        "wraithlord"
+      ],
+      "base_mm": 60,
+      "source": "eldar wraith"
+    },
+    {
+      "match": [
+        "falcon",
+        "fire prism",
+        "prism cannon"
+      ],
+      "footprint_mm": 120,
+      "source": "eldar skimmer"
+    },
+    {
+      "match": [
+        "wave serpent"
+      ],
+      "footprint_mm": 120,
+      "source": "eldar transport"
+    },
+    {
+      "match": [
+        "vyper",
+        "jetbike"
+      ],
+      "base_mm": 60,
+      "source": "eldar bike; oval fallback editable",
+      "base_length_mm": 75,
+      "base_width_mm": 42
+    },
+    {
+      "match": [
+        "shining spear"
+      ],
+      "base_mm": 75,
+      "source": "eldar cavalry"
+    },
+    {
+      "match": [
+        "dark eldar",
+        "kabalite warrior",
+        "hellion"
+      ],
+      "base_mm": 28.5,
+      "source": "dark eldar infantry"
+    },
+    {
+      "match": [
+        "incubi",
+        "hekatrix"
+      ],
+      "base_mm": 28.5,
+      "source": "dark eldar elite"
+    },
+    {
+      "match": [
+        "archon",
+        "succubus"
+      ],
+      "base_mm": 32,
+      "source": "dark eldar character"
+    },
+    {
+      "match": [
+        "wyches",
+        "witch elves"
+      ],
+      "base_mm": 28.5,
+      "source": "dark eldar gladiator"
+    },
+    {
+      "match": [
+        "raider",
+        "venom"
+      ],
+      "footprint_mm": 100,
+      "source": "dark eldar transport"
+    },
+    {
+      "match": [
+        "ravager"
+      ],
+      "footprint_mm": 120,
+      "source": "dark eldar gunboat"
+    },
+    {
+      "match": [
+        "reaver",
+        "scourge"
+      ],
+      "base_mm": 32,
+      "source": "dark eldar flyer; oval fallback editable",
+      "base_length_mm": 75,
+      "base_width_mm": 42
+    },
+    {
+      "match": [
+        "talos",
+        "cronos"
+      ],
+      "base_mm": 60,
+      "source": "dark eldar beast"
+    },
+    {
+      "match": [
+        "tau fire warrior",
+        "fire warrior"
+      ],
+      "base_mm": 28.5,
+      "source": "tau infantry"
+    },
+    {
+      "match": [
+        "crisis suit",
+        "commander"
+      ],
+      "base_mm": 50,
+      "source": "tau battlesuit"
+    },
+    {
+      "match": [
+        "stealth suit",
+        "infiltrator"
+      ],
+      "base_mm": 32,
+      "source": "tau stealth"
+    },
+    {
+      "match": [
+        "broadside"
+      ],
+      "base_mm": 60,
+      "source": "tau heavy suit"
+    },
+    {
+      "match": [
+        "riptide"
+      ],
+      "base_mm": 70,
+      "source": "tau megatron"
+    },
+    {
+      "match": [
+        "devilfish",
+        "pirhana"
+      ],
+      "footprint_mm": 110,
+      "source": "tau skiff"
+    },
+    {
+      "match": [
+        "hammerhead"
+      ],
+      "footprint_mm": 130,
+      "source": "tau tank"
+    },
+    {
+      "match": [
+        "kroot",
+        "farsight",
+        "ethereal"
+      ],
+      "base_mm": 28.5,
+      "source": "tau allied"
+    },
+    {
+      "match": [
+        "pathfinder"
+      ],
+      "base_mm": 28.5,
+      "source": "tau scout"
+    },
+    {
+      "match": [
+        "tyranid warrior",
+        "tyranid",
+        "creature"
+      ],
+      "base_mm": 40,
+      "source": "tyranid elite"
+    },
+    {
+      "match": [
+        "termagant",
+        "hormagaunt"
+      ],
+      "base_mm": 28.5,
+      "source": "tyranid swarm"
+    },
+    {
+      "match": [
+        "ripper",
+        "spawn"
+      ],
+      "base_mm": 20,
+      "source": "tyranid tiny"
+    },
+    {
+      "match": [
+        "hive tyrant",
+        "carnifex",
+        "tyrannofex"
+      ],
+      "base_mm": 60,
+      "source": "tyranid heavy"
+    },
+    {
+      "match": [
+        "gargoyle",
+        "harpy"
+      ],
+      "base_mm": 40,
+      "source": "tyranid flyer"
+    },
+    {
+      "match": [
+        "lictor",
+        "maleceptor",
+        "neurothrope"
+      ],
+      "base_mm": 40,
+      "source": "tyranid elite"
+    },
+    {
+      "match": [
+        "biovore"
+      ],
+      "base_mm": 50,
+      "source": "tyranid creature"
+    },
+    {
+      "match": [
+        "exocrine",
+        "haruspex"
+      ],
+      "base_mm": 60,
+      "source": "tyranid heavy"
+    },
+    {
+      "match": [
+        "trygon"
+      ],
+      "base_mm": 60,
+      "source": "tyranid burrower"
+    },
+    {
+      "match": [
+        "genestealer",
+        "cultist"
+      ],
+      "base_mm": 28.5,
+      "source": "genestealer cult"
+    },
+    {
+      "match": [
+        "acolyte",
+        "hybrid"
+      ],
+      "base_mm": 32,
+      "source": "genestealer hybrid"
+    },
+    {
+      "match": [
+        "patriarch",
+        "magus"
+      ],
+      "base_mm": 40,
+      "source": "genestealer leader"
+    },
+    {
+      "match": [
+        "clamavus",
+        "sanctus"
+      ],
+      "base_mm": 28.5,
+      "source": "genestealer specialist"
+    },
+    {
+      "match": [
+        "familiars"
+      ],
+      "base_mm": 20,
+      "source": "genestealer small"
+    },
+    {
+      "match": [
+        "leman russ",
+        "rock grinder",
+        "goliath"
+      ],
+      "footprint_mm": 130,
+      "source": "genestealer vehicle"
+    },
+    {
+      "match": [
+        "chimera"
+      ],
+      "footprint_mm": 120,
+      "source": "genestealer transport"
+    },
+    {
+      "match": [
+        "imperial knight",
+        "knight errant"
+      ],
+      "base_mm": 100,
+      "source": "imperial knight"
+    },
+    {
+      "match": [
+        "questor mechanic",
+        "knight warden"
+      ],
+      "base_mm": 100,
+      "source": "knight variant"
+    },
+    {
+      "match": [
+        "armigers",
+        "armiger warglaive"
+      ],
+      "base_mm": 60,
+      "source": "support knight"
+    },
+    {
+      "match": [
+        "chaos knight"
+      ],
+      "base_mm": 100,
+      "source": "chaos knight"
+    },
+    {
+      "match": [
+        "skitarii",
+        "skitarius ranger"
+      ],
+      "base_mm": 28.5,
+      "source": "adeptus mechanicus"
+    },
+    {
+      "match": [
+        "techpriest",
+        "enginseer",
+        "dominus"
+      ],
+      "base_mm": 32,
+      "source": "mechanicus leader"
+    },
+    {
+      "match": [
+        "sicarian",
+        "infiltrator"
+      ],
+      "base_mm": 28.5,
+      "source": "mechanicus elite"
+    },
+    {
+      "match": [
+        "galvanic rifle",
+        "arc rifle"
+      ],
+      "base_mm": 28.5,
+      "source": "mechanicus special"
+    },
+    {
+      "match": [
+        "kastelans robot",
+        "castellan"
+      ],
+      "base_mm": 50,
+      "source": "mechanicus heavy"
+    },
+    {
+      "match": [
+        "ironstrider",
+        "dragoon"
+      ],
+      "footprint_mm": 90,
+      "source": "mechanicus walker"
+    },
+    {
+      "match": [
+        "arc magos",
+        "belisarius cawl"
+      ],
+      "base_mm": 40,
+      "source": "mechanicus named"
+    },
+    {
+      "match": [
+        "serberys"
+      ],
+      "base_mm": 28.5,
+      "source": "mechanicus cavalry"
+    },
+    {
+      "match": [
+        "sister of battle",
+        "battle sister",
+        "seraphim"
+      ],
+      "base_mm": 28,
+      "source": "sisters of battle"
+    },
+    {
+      "match": [
+        "retributor",
+        "superior"
+      ],
+      "base_mm": 28,
+      "source": "sisters elite"
+    },
+    {
+      "match": [
+        "zephyrim"
+      ],
+      "base_mm": 28,
+      "source": "sisters assault"
+    },
+    {
+      "match": [
+        "saint celestine",
+        "canoness"
+      ],
+      "base_mm": 40,
+      "source": "sisters character"
+    },
+    {
+      "match": [
+        "arco-flagellant"
+      ],
+      "base_mm": 32,
+      "source": "sisters heavy"
+    },
+    {
+      "match": [
+        "repentia"
+      ],
+      "base_mm": 28,
+      "source": "sisters penitent"
+    },
+    {
+      "match": [
+        "penitent engine",
+        "immolator"
+      ],
+      "footprint_mm": 100,
+      "source": "sisters walker"
+    },
+    {
+      "match": [
+        "rhino",
+        "immolator"
+      ],
+      "footprint_mm": 120,
+      "source": "sisters transport"
+    },
+    {
+      "match": [
+        "exorcist"
+      ],
+      "footprint_mm": 120,
+      "source": "sisters gunboat"
+    },
+    {
+      "match": [
+        "grey knight",
+        "purifier"
+      ],
+      "base_mm": 40,
+      "source": "grey knight"
+    },
+    {
+      "match": [
+        "grey knight terminator"
+      ],
+      "base_mm": 40,
+      "source": "grey knight elite"
+    },
+    {
+      "match": [
+        "grand master",
+        "kaldor draigo"
+      ],
+      "base_mm": 40,
+      "source": "grey knight leader"
+    },
+    {
+      "match": [
+        "psilencer",
+        "incinerator"
+      ],
+      "base_mm": 40,
+      "source": "grey knight specialist"
+    },
+    {
+      "match": [
+        "nemesis",
+        "halberd"
+      ],
+      "base_mm": 40,
+      "source": "grey knight weapon"
+    },
+    {
+      "match": [
+        "dreadknight"
+      ],
+      "base_mm": 60,
+      "source": "grey knight heavy"
+    },
+    {
+      "match": [
+        "land raider",
+        "stormraven"
+      ],
+      "footprint_mm": 140,
+      "source": "grey knight transport"
+    },
+    {
+      "match": [
+        "deathwing",
+        "dark angel"
+      ],
+      "base_mm": 40,
+      "source": "dark angels terminator"
+    },
+    {
+      "match": [
+        "ravenwing",
+        "black knight"
+      ],
+      "base_mm": 75,
+      "source": "dark angels bike; oval fallback editable",
+      "base_length_mm": 75,
+      "base_width_mm": 42
+    },
+    {
+      "match": [
+        "azrael"
+      ],
+      "base_mm": 40,
+      "source": "dark angels leader"
+    },
+    {
+      "match": [
+        "sammael"
+      ],
+      "base_mm": 75,
+      "source": "dark angels champion"
+    },
+    {
+      "match": [
+        "blood angel",
+        "sanguinary guard"
+      ],
+      "base_mm": 40,
+      "source": "blood angels elite"
+    },
+    {
+      "match": [
+        "assault squad",
+        "vanguard veteran"
+      ],
+      "base_mm": 32,
+      "source": "blood angels assault"
+    },
+    {
+      "match": [
+        "dante"
+      ],
+      "base_mm": 40,
+      "source": "blood angels leader"
+    },
+    {
+      "match": [
+        "death company"
+      ],
+      "base_mm": 40,
+      "source": "blood angels berserker"
+    },
+    {
+      "match": [
+        "black templar",
+        "crusader"
+      ],
+      "base_mm": 32,
+      "source": "black templars"
+    },
+    {
+      "match": [
+        "sword brethren"
+      ],
+      "base_mm": 40,
+      "source": "black templars elite"
+    },
+    {
+      "match": [
+        "high marshal",
+        "chaplain"
+      ],
+      "base_mm": 40,
+      "source": "black templars leader"
+    },
+    {
+      "match": [
+        "space wolf",
+        "fenrisian"
+      ],
+      "base_mm": 32,
+      "source": "space wolves"
+    },
+    {
+      "match": [
+        "wolf guard",
+        "pack leader"
+      ],
+      "base_mm": 40,
+      "source": "space wolves elite"
+    },
+    {
+      "match": [
+        "logan grimnar"
+      ],
+      "base_mm": 40,
+      "source": "space wolves leader"
+    },
+    {
+      "match": [
+        "iron hand",
+        "iron father"
+      ],
+      "base_mm": 32,
+      "source": "iron hands"
+    },
+    {
+      "match": [
+        "ferrum infernus"
+      ],
+      "base_mm": 40,
+      "source": "iron hands leader"
+    },
+    {
+      "match": [
+        "ultramarines",
+        "ultramarine"
+      ],
+      "base_mm": 32,
+      "source": "ultramarines"
+    },
+    {
+      "match": [
+        "roboute guilliman"
+      ],
+      "base_mm": 50,
+      "source": "ultramarines leader"
+    },
+    {
+      "match": [
+        "salamanders",
+        "salamander"
+      ],
+      "base_mm": 32,
+      "source": "salamanders"
+    },
+    {
+      "match": [
+        "vulkan"
+      ],
+      "base_mm": 40,
+      "source": "salamanders leader"
+    },
+    {
+      "match": [
+        "raven guard"
+      ],
+      "base_mm": 32,
+      "source": "raven guard"
+    },
+    {
+      "match": [
+        "corax"
+      ],
+      "base_mm": 40,
+      "source": "raven guard leader"
+    },
+    {
+      "match": [
+        "iron warriors"
+      ],
+      "base_mm": 32,
+      "source": "iron warriors"
+    },
+    {
+      "match": [
+        "perturabo"
+      ],
+      "base_mm": 40,
+      "source": "iron warriors leader"
+    },
+    {
+      "match": [
+        "word bearers"
+      ],
+      "base_mm": 32,
+      "source": "word bearers"
+    },
+    {
+      "match": [
+        "lorgar"
+      ],
+      "base_mm": 40,
+      "source": "word bearers leader"
+    },
+    {
+      "match": [
+        "night lords"
+      ],
+      "base_mm": 32,
+      "source": "night lords"
+    },
+    {
+      "match": [
+        "curze"
+      ],
+      "base_mm": 40,
+      "source": "night lords leader"
+    },
+    {
+      "match": [
+        "alpha legion"
+      ],
+      "base_mm": 32,
+      "source": "alpha legion"
+    },
+    {
+      "match": [
+        "alpharius"
+      ],
+      "base_mm": 40,
+      "source": "alpha legion leader"
+    },
+    {
+      "match": [
+        "thousand sons"
+      ],
+      "base_mm": 32,
+      "source": "thousand sons"
+    },
+    {
+      "match": [
+        "magnus the red"
+      ],
+      "base_mm": 50,
+      "source": "thousand sons leader"
+    },
+    {
+      "match": [
+        "emperors children"
+      ],
+      "base_mm": 32,
+      "source": "emperors children"
+    },
+    {
+      "match": [
+        "fulgrim"
+      ],
+      "base_mm": 50,
+      "source": "emperors children leader"
+    },
+    {
+      "match": [
+        "death guard"
+      ],
+      "base_mm": 32,
+      "source": "death guard"
+    },
+    {
+      "match": [
+        "mortarion"
+      ],
+      "base_mm": 50,
+      "source": "death guard leader"
+    },
+    {
+      "match": [
+        "world eaters"
+      ],
+      "base_mm": 32,
+      "source": "world eaters"
+    },
+    {
+      "match": [
+        "khorne berserker"
+      ],
+      "base_mm": 32,
+      "source": "world eaters elite"
+    },
+    {
+      "match": [
+        "angron"
+      ],
+      "base_mm": 100,
+      "source": "world eaters leader"
+    },
+    {
+      "match": [
+        "black legion"
+      ],
+      "base_mm": 32,
+      "source": "black legion"
+    },
+    {
+      "match": [
+        "abaddon"
+      ],
+      "base_mm": 40,
+      "source": "black legion leader"
+    }
+  ]
+}
