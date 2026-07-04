@@ -2,7 +2,7 @@
 
 A guided tabletop companion for roster imports, deployment, phases, scoring, wounds, and reminders.
 
-[⬇ Download Tabletop Battle Advisor Free](https://github.com/twitchplays40k/Tabletop-Battle-Advisor/releases/tag/Main)
+[⬇ Download Tabletop Battle Advisor Free](https://github.com/twitchplays40k/Tabletop-Battle-Advisor/releases/tag/Main-1)
 
 ## How to install
 
